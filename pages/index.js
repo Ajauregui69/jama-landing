@@ -1,0 +1,35 @@
+import Navbar from '../components/Layouts/Navbar'
+import MainBanner from '../components/HomeOne/MainBanner'
+import Features from '../components/HomeOne/Features'
+import About from '../components/HomeOne/About'
+import WhyChooseUs from '../components/HomeOne/WhyChooseUs'
+import Services from '../components/HomeOne/Services'
+import MakeYourBusiness from '../components/Common/MakeYourBusiness'
+import Footer from '../components/Layouts/Footer'
+import Newsletter from '../components/Common/Newsletter'
+
+const Index = () => {
+    return (
+        <>
+            <Navbar />
+            
+            <MainBanner />
+
+            <Features />
+
+            <About />
+
+            <WhyChooseUs />
+
+            <Services />
+
+            <MakeYourBusiness />
+
+            <Newsletter />
+            
+            <Footer />
+        </>
+    )
+}
+
+export default Index
